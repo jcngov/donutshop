@@ -1,0 +1,35 @@
+.box {
+  position: relative;
+}
+
+.donut {
+  height: 780px !important;
+}
+
+.box-and-image {
+  display: flex;
+}
+
+.box {
+  width: 100%;
+  background-color: currentColor;
+  height: auto;
+}
+
+.donut-text {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  font-size: 70px;
+}
+/*
+.onepage-pagination {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+*/
