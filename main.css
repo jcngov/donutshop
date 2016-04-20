@@ -1,6 +1,8 @@
 .box {
   position: relative;
+  opacity: 0.5;
 }
+
 
 .donut {
   height: 780px !important;
@@ -10,17 +12,25 @@
   display: flex;
 }
 
-.box {
+.box, .box3 {
   width: 100%;
   background-color: currentColor;
   height: auto;
 }
 
-.donut-text {
+.box3 {
+  position: relative;
+}
+
+.donut-text, .nomz {
   color: white;
   position: absolute;
   bottom: 0;
   font-size: 70px;
+}
+
+.nomz {
+  left: 280px;
 }
 /*
 .onepage-pagination {
